@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(0, 25, 43);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+h1{
+    text-align:center;
+    color:rgb(228, 216, 107);
+    font-size:xx-large;
+    margin-bottom:20px;
+}
+h2{
+    text-align:center;
+    color:rgb(228, 216, 107);
+    font-size:x-large;
+    margin-bottom:7px;
+}
+h3{
+    text-align:center;
+    color:rgb(228, 216, 107);
+    font-size:large;
+    margin-bottom:10px;
+}
+p{
+    color:rgb(255, 252, 238);
+    word-spacing: 2px;
+    font-size:large;
+    margin-bottom:8px;
+    padding:7px;
+}
+a{
+    color:rgb(27, 178, 178);
+    text-decoration: none;
+    text-align:center;
+    padding:15px;
+}   
+
+.mainheading{
+    margin-bottom:22px;
+}
+
+.navigation{
+    background-color:rgb(24, 29, 37);
+    border:1px solid whitesmoke;
+    margin-bottom:20px;
+}
+.nav-list{  
+    display:flex;
+    flex-direction: row;
+}
+.nav-ele{
+    display:inline;
+    font-size:20px;
+    font-weight:bold;
+    border-right:1px solid whitesmoke;
+}
+.nav-ele:hover{
+    background-color:rgb(1, 1, 1);
+}
+.nav-ele a{
+    display:block;
+}
+
+.problemsection{
+    margin-left:10px;
+    margin-right:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.problemsection h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+.arrays{
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.topics-btn{
+    width:1500px;
+    height:50px;
+    font-size:20px;
+    margin-bottom:10px;
+    background-color:rgb(24, 29, 37);
+    color:coral;
+    border:1px solid whitesmoke;
+}
+.topics-btn:hover{
+    background-color:rgb(1, 1, 1);
+    border:1px solid coral;
+}
+.topics-table{
+    width:1501px;
+    border-collapse: collapse;
+    display: none;
+    justify-content: center;
+    margin-bottom:15px;
+}
+.topics-table-row{
+    height:40px;
+    border:1px solid white;
+}
+.topics-table-row-head{
+    height:60px;
+    border:1px solid white;
+}
+.topics-table-index-head{
+    width:100px;
+    text-align:center;
+    border:1px solid white;  
+    color:peachpuff;
+ }
+ .topics-table-criteria-head{
+   width:400px;
+   text-align:center;
+   border:1px solid white; 
+   color:peachpuff;
+ }
+ .topics-table-reference-head{
+     width:400px;
+     text-align:center;
+     border:1px solid white; 
+     color:peachpuff;
+   }
+ .topics-table-name-head{
+     width:600px;
+     text-align:center;
+     border:1px solid white; 
+     color:peachpuff;
+ }
+.topics-table-index{
+   width:100px;
+   text-align:center;
+   border:1px solid white;
+   color:aliceblue;  
+}
+.topics-table-criteria{
+  width:400px;
+  text-align:center;
+  border:1px solid white; 
+  color:aliceblue;  
+}
+.topics-table-reference{
+    width:400px;
+    text-align:center;
+    border:1px solid white; 
+  }
+.topics-table-name{
+    width:600px;
+    text-align:center;
+    border:1px solid white; 
+}
+
+.aboutme{
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:20px;
+}
+
+.contactme{
+    background-color:rgb(24, 29, 37);
+    border:1px solid whitesmoke;
+}
+.details{
+    margin-left:10px;
+    margin-right:10px;
+}
+.foothead{
+    margin-top:10px;
+    text-align: center;
+    color:rgb(228, 216, 107)
+}
+.footpara{
+    text-align: center;
+}
