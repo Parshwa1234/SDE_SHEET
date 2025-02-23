@@ -83,7 +83,7 @@ a{
     flex-direction: column;
     justify-content: center;
     margin-bottom:10px;
-    max-width: 100%;
+    max-width:100%;
 }
 .problemsection h2{
     text-align:center;
@@ -93,10 +93,10 @@ a{
  display:flex;
  flex-wrap: wrap;
  justify-content: center;
- max-width: 100%;
+ max-width:100%;
 }
 .topics-btn{
-    width:30%;
+    max-width:40%;
     font-size:2vw;
     height:4vw;
     margin-bottom:10px;
