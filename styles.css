@@ -96,6 +96,7 @@ a{
  max-width: 100%;
 }
 .topics-btn{
+    width:30%;
     font-size:2vw;
     height:4vw;
     margin-bottom:10px;
